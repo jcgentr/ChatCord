@@ -7,14 +7,22 @@
     "start": "node server",
     "dev": "nodemon server"
   },
-  "author": "Brad Traversy",
-  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jcgentr/chatcord.git"
+  },
+  "author": "Jared Gentry",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jcgentr/chatcord/issues"
+  },
+  "homepage": "https://github.com/jcgentr/chatcord#readme",
   "dependencies": {
     "express": "^4.17.1",
-    "moment": "^2.24.0",
+    "moment": "^2.25.3",
     "socket.io": "^2.3.0"
   },
   "devDependencies": {
-    "nodemon": "^2.0.2"
+    "nodemon": "^2.0.4"
   }
 }
